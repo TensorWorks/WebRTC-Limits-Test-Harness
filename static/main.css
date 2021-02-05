@@ -1,0 +1,50 @@
+html, body {
+	margin: 0;
+}
+
+#status-container
+{
+	border: 1px solid #ccc;
+	background-color: #eee;
+	margin-bottom: 1rem;
+	padding: 1rem;
+}
+
+#status-container p, #status-container ul, #status-container ul li {
+	margin: 0;
+}
+
+#status-container p {
+	padding-bottom: 0.5rem;
+}
+
+#status-container ul {
+	padding-left: 1rem;
+}
+
+#video-container
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#video-container > div {
+	flex: 1;
+}
+
+#video-container video {
+	max-width: 20rem;
+}
+
+#run-button
+{
+	font-size: 5rem;
+	padding: 2rem 5rem;
+}
+
+.radio-button-list, .radio-button-list li
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
